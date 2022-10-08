@@ -5,17 +5,42 @@
     padding: 0;
 }
 
+body{
+    background-image: radial-gradient(#8C1236,#2A0116);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    font-weight: 700;
+    color: white;
+    font-size: 2em;
+}
+
 main{
     font-family: "Comic Neue";
     font-weight: 400;
 }
 
-header{
-    font-weight: 700;
+section{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
 }
 
 a{
+    color: white;
     cursor: pointer;
     text-decoration: none;
 }
 
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 15px;
+    padding: 5px;
+}
