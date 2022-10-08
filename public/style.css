@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -9,28 +9,18 @@ body{
     background-image: radial-gradient(#8C1236,#2A0116);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
 }
 
 header{
     font-weight: 700;
-    color: white;
+    color: whitesmoke;
     font-size: 2em;
 }
 
-main{
-    font-family: "Comic Neue";
-    font-weight: 400;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    margin: auto;
-}
-
-a{
-    color: white;
+li > a{
+    color: whitesmoke;
     cursor: pointer;
     text-decoration: none;
 }
@@ -38,9 +28,49 @@ a{
 ul{
     display: flex;
     list-style: none;
+    margin-left: 30px;
 }
 
 li{
     margin: 15px;
     padding: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+
+button{
+    margin: 12px;
+    height: 50px;
+    width: 300px;
+    border-radius: 35px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: whitesmoke;
+}
+
+a > button{
+    color:rgb(179, 132, 15);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#calendar{
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+#about{
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
 }
