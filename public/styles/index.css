@@ -88,3 +88,8 @@ p{
     font-size: 1.2em;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 500px) {
+  ul {
+    flex-direction: column
+  }
+}
