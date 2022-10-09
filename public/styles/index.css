@@ -41,6 +41,7 @@ section{
     display: flex;
     width: fit-content;
     align-items: center;
+    flex-direction: column;
 }
 
 section > img{
