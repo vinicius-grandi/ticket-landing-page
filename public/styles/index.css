@@ -129,6 +129,7 @@ p {
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
+
 @media screen and (max-width: 500px) {
   li {
     font-size: 1.5rem;
