@@ -90,6 +90,20 @@ a > button{
     text-transform: uppercase;
 }
 
+#calendar-section {
+  flex-direction: column;
+}
+
+#calendar-section img {
+  width: 50px;
+  float: left;
+}
+
+#calendar-section span {
+  width: 50px;
+  color: white
+}
+
 p{
     color: whitesmoke;
     text-align: center;
