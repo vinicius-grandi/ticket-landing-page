@@ -37,11 +37,6 @@ li{
     padding: 5px;
 }
 
-main{
-    max-width: 1200px;
-    min-width: 350px;
-}
-
 section{
     display: flex;
     flex-direction: column;
@@ -80,6 +75,20 @@ a > button{
     color: white;
     font-size: 2em;
     text-transform: uppercase;
+}
+
+#calendar-section {
+  flex-direction: column;
+}
+
+#calendar-section img {
+  width: 50px;
+  float: left;
+}
+
+#calendar-section span {
+  width: 50px;
+  color: white
 }
 
 p{
