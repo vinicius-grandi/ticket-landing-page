@@ -23,7 +23,7 @@ window.onload = async () => {
       }
     });
     const data = await response.json();
-    data.data.slice(0, 3).forEach((val) => {
+    data.data.slice(0, 16).forEach((val) => {
       createList(calendarSection, val)
     });
   } catch (error) {
