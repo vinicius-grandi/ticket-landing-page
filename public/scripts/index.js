@@ -5,7 +5,6 @@ window.onload = async () => {
     }
   });
   const data = await response.json();
-  console.log(data);
 };
 
 // fetch('http://api.cup2022.ir/api/v1/match', {
