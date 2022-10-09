@@ -16,6 +16,9 @@ function createList(list, item) {
 
 window.onload = async () => {
   const calendarSection = document.querySelector('#calendar-section');
+  const loading = document.createElement('p');
+  loading.innerText = 'LOADING...';
+  calendarSection.appendChild(loading)
   try {
     const response = await fetch('https://interesting-sphenoid-chrysanthemum.glitch.me', {
       headers: {
@@ -31,4 +34,5 @@ window.onload = async () => {
     p.innerText = 'Desculpe, erro no servidor';
     calendarSection.append(p);
   }
+  calendarSection.removeChild(loading);
 };
