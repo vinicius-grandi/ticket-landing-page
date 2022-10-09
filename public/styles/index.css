@@ -14,10 +14,10 @@ body {
   font-weight: 400;
 }
 
-header{
-    font-weight: 700;
-    color: whitesmoke;
-    font-size: 2rem;
+header {
+  font-weight: 700;
+  color: whitesmoke;
+  font-size: 2rem;
 }
 
 li > a {
@@ -26,43 +26,43 @@ li > a {
   text-decoration: none;
 }
 
-ul{
-    display: flex;
-    list-style: none;
+ul {
+  display: flex;
+  list-style: none;
 }
 
-li{
-    margin: 15px;
-    padding: 2px;
+li {
+  margin: 15px;
+  padding: 2px;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    align-items: center;
-    flex-direction: column;
+section {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  flex-direction: column;
 }
 
 section > img {
   width: 100%;
 }
 
-button{
-    margin: 12px;
-    height: 50px;
-    width: 300px;
-    border-radius: 35px;
-    font-size: 1.2rem;
-    font-weight: bolder;
-    background-color: whitesmoke;
-    border: 4px solid rgba(191, 140, 10, 0.698);
+button {
+  margin: 12px;
+  height: 50px;
+  width: 300px;
+  border-radius: 35px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  background-color: whitesmoke;
+  border: 4px solid rgba(191, 140, 10, 0.698);
 }
 
 a > button {
@@ -71,14 +71,14 @@ a > button {
   cursor: pointer;
 }
 
-#calendar{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 10px;
-    font-weight: 700;
-    color: white;
-    font-size: 2rem;
-    text-transform: uppercase;
+#calendar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  font-weight: 700;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 #calendar-section {
@@ -92,16 +92,16 @@ a > button {
 }
 
 #calendar-section p {
-    text-align: center;
+  text-align: center;
 }
 
-#about{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-weight: 700;
-    color: white;
-    font-size: 2rem;
-    text-transform: uppercase;
+#about {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 #calendar-section {
@@ -120,23 +120,23 @@ a > button {
 }
 
 #calendar-section p {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
-p{
-    color: whitesmoke;
-    text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 500px) {
-    li{
-        font-size: 1.5rem;
-        margin: 6px;
-        padding: 2px;
-    }
+  li {
+    font-size: 1.5rem;
+    margin: 6px;
+    padding: 2px;
+  }
   ul {
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
   }
 }
