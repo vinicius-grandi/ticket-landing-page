@@ -37,17 +37,14 @@ li{
     padding: 5px;
 }
 
-main{
-    max-width: 1200px;
-    min-width: 350px;
-}
-
 section{
     display: flex;
-    flex-direction: column;
     width: fit-content;
-    margin: auto;
     align-items: center;
+}
+
+section > img{
+    width: 100%;
 }
 
 button{
@@ -73,6 +70,17 @@ a > button{
     font-size: 2em;
     text-transform: uppercase;
 }
+
+#calendar-section{
+    color: whitesmoke;
+    flex-direction: column;
+}
+
+#calendar-section img{
+    float: left;
+    width: 50px;
+}
+
 #about{
     margin-top: 20px;
     margin-bottom: 20px;
