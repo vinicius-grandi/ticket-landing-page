@@ -1,94 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: radial-gradient(#8C1236,#2A0116);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: "Roboto Condensed";
-    font-weight: 400;
+body {
+  background-image: radial-gradient(#8c1236, #2a0116);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto Condensed';
+  font-weight: 400;
 }
 
-header{
-    font-weight: 700;
-    color: whitesmoke;
-    font-size: 2em;
+header {
+  font-weight: 700;
+  color: whitesmoke;
+  font-size: 2em;
 }
 
-li > a{
-    color: whitesmoke;
-    cursor: pointer;
-    text-decoration: none;
+li > a {
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    margin-left: 30px;
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 30px;
 }
 
-li{
-    margin: 15px;
-    padding: 5px;
+li {
+  margin: 15px;
+  padding: 5px;
 }
 
-section{
-    display: flex;
-    width: fit-content;
-    align-items: center;
-    flex-direction: column;
+section {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  flex-direction: column;
 }
 
-section > img{
-    width: 100%;
+section > img {
+  width: 100%;
 }
 
-button{
-    margin: 12px;
-    height: 50px;
-    width: 300px;
-    border-radius: 35px;
-    font-size: 1.2em;
-    font-weight: bolder;
-    background-color: whitesmoke;
+button {
+  margin: 12px;
+  height: 50px;
+  width: 300px;
+  border-radius: 35px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  background-color: whitesmoke;
 }
 
-a > button{
-    color:rgb(179, 132, 15);
-    text-decoration: none;
-    cursor: pointer;
+a > button {
+  color: rgb(179, 132, 15);
+  text-decoration: none;
+  cursor: pointer;
 }
 
-#calendar{
-    margin-top: 20px;
-    font-weight: 700;
-    color: white;
-    font-size: 2em;
-    text-transform: uppercase;
+#calendar {
+  margin-top: 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
-#calendar-section{
-    color: whitesmoke;
-    flex-direction: column;
+#calendar-section {
+  color: whitesmoke;
+  flex-direction: column;
 }
 
-#calendar-section img{
-    float: left;
-    width: 50px;
+#calendar-section img {
+  float: left;
+  width: 50px;
 }
 
-#about{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    color: white;
-    font-size: 2em;
-    text-transform: uppercase;
+#about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 #calendar-section {
@@ -102,17 +102,17 @@ a > button{
 
 #calendar-section span {
   width: 50px;
-  color: white
+  color: white;
 }
 
-p{
-    color: whitesmoke;
-    text-align: center;
-    font-size: 1.2em;
-    margin-bottom: 20px;
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 500px) {
   ul {
-    flex-direction: column
+    flex-direction: column;
   }
 }
